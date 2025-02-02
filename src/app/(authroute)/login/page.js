@@ -1,7 +1,7 @@
-import React from "react";
+import style from "./login.module.css";
 
 const Login = () => {
-  return <div>login</div>;
+  return <div className={style.color}>login</div>;
 };
 
 export default Login;
